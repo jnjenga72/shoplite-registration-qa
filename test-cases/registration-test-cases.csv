@@ -1,0 +1,8 @@
+
+Test Case ID,Scenario,Test Data,Expected Result,Actual Result,Status
+REG-001,Valid registration,Valid new email and matching password,Account created with confirmation,Not executed,Not Run
+REG-002,Missing name,Name left blank,Required-field message,Not executed,Not Run
+REG-003,Invalid email,john@,Email validation message,Not executed,Not Run
+REG-004,Password too short,Seven-character password,Password length validation message,Not executed,Not Run
+REG-005,Password mismatch,Different password and confirmation,Mismatch message,Not executed,Not Run
+REG-006,Duplicate email,Email already registered,Duplicate account rejected,Not executed,Not Run
